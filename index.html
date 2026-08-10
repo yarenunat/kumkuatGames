@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kumkuat Games — Official Home</title>
+    <meta name="description" content="The official home of Kumkuat Games. Explore our games, latest news, and join our community.">
+    <meta name="author" content="Kumkuat Games">
+    <meta name="theme-color" content="#0b0b0b">
+    <meta property="og:title" content="Kumkuat Games">
+    <meta property="og:description" content="The official home of Kumkuat Games">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- ============ HEADER ============ -->
+    <header id="site-header" class="site-header">
+        <div class="header-left">
+            <a href="index.html" class="header-logo">
+                <img src="./assets/images/kumkuatlogo2-w.png" alt="Kumkuat Games" class="logo-img">
+            </a>
+        </div>
+
+        <nav class="header-nav" id="header-nav">
+            <ul class="nav-list">
+                <li class="nav-item has-dropdown">
+                    <a href="#games-section" class="nav-link">Games <i class="fa-solid fa-chevron-down nav-arrow"></i></a>
+                    <div class="nav-dropdown" id="dropdown-games">
+                        <div class="dropdown-inner">
+                            <a href="#games-section" class="dropdown-game-card">
+                                <img src="./assets/images/age-of-cards/ageof916.png" alt="Age of Cards" style="object-position: top;">
+                                <span>Age of Cards</span>
+                            </a>
+                            <a href="#games-section" class="dropdown-game-card">
+                                <img src="./assets/images/phoenix-dynasty-2/phoenix2916.png" alt="Phoenix Dynasty 2" style="object-position: center;">
+                                <span>Phoenix Dynasty 2</span>
+                            </a>
+                            <a href="#games-section" class="dropdown-game-card">
+                                <img src="./assets/images/football-mates/footmat916.png" alt="Football Mates" style="object-position: center;">
+                                <span>Football Mates</span>
+                            </a>
+                            <a href="#games-section" class="dropdown-game-card">
+                                <img src="./assets/images/dark-sleep/darksleep916.png" alt="Dark Sleep" style="object-position: top;">
+                                <span>Dark Sleep</span>
+                            </a>
+                        </div>
+                        <a href="#games-section" class="dropdown-viewall">View All Games</a>
+                    </div>
+                </li>
+                <li class="nav-item"><a href="#newswire-section" class="nav-link">Newswire</a></li>
+                <li class="nav-item"><a href="#videos-section" class="nav-link">Videos</a></li>
+                <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link">Support <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:0.65em;margin-left:4px;opacity:0.6;"></i></a></li>
+            </ul>
+        </nav>
+
+        <div class="header-right">
+            <a href="./assets/images/brandkit.png" target="_blank" class="header-btn-outline" style="text-decoration: none;">Our Brand Kit</a>
+            <button class="header-icon-btn" id="btn-search" aria-label="Search"><i class="fa-solid fa-magnifying-glass"></i></button>
+            <button class="header-icon-btn header-user-btn" id="btn-user" aria-label="Account"><i class="fa-regular fa-user"></i></button>
+            <button class="header-icon-btn hamburger-btn" id="btn-hamburger" aria-label="Menu"><i class="fa-solid fa-bars"></i></button>
+        </div>
+    </header>
+
+    <!-- ============ SEARCH OVERLAY ============ -->
+    <div class="search-overlay" id="search-overlay">
+        <div class="search-bar-container">
+            <div class="search-bar">
+                <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                <input type="text" id="search-input" placeholder="Search Kumkuat Games..." autocomplete="off">
+                <button class="search-close-btn" id="btn-search-close"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ============ MOBILE MENU ============ -->
+    <div class="mobile-menu" id="mobile-menu">
+        <div class="mobile-menu-inner">
+            <ul class="mobile-nav-list">
+                <li><a href="#games-section">Games</a></li>
+                <li><a href="#newswire-section">Newswire</a></li>
+                <li><a href="#videos-section">Videos</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="team.html">Careers</a></li>
+                <li><a href="contact.html">Support</a></li>
+            </ul>
+            <div class="mobile-menu-socials">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#"><i class="fa-brands fa-discord"></i></a>
+                <a href="#"><i class="fa-brands fa-steam"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- ============ MAIN CONTENT ============ -->
+    <main>
+
+        <!-- HERO CAROUSEL -->
+        <section class="hero-carousel" id="hero-carousel">
+            <!-- (Carousel content remains same, just replacing up to here to ensure exact match without duplicating) -->
+            <div class="hero-slides-wrapper">
+                <!-- Slide 1 -->
+                <div class="hero-slide active" data-slide="0">
+                    <div class="hero-slide-bg" style="background-image: url('./assets/images/age-of-cards/age-of-cards.png');"></div>
+                    <div class="hero-slide-overlay"></div>
+                    <div class="hero-slide-content">
+                        <div class="hero-game-logo-area">
+                            <!-- Game logo placeholder -->
+                        </div>
+                        <span class="hero-label">Age of Cards — Ra's Chess</span>
+                        <h1 class="hero-title">Strategic Card Combat<br>Now on Steam</h1>
+                        <div class="hero-actions">
+                            <a href="https://store.steampowered.com/app/855590/Age_of_Cards__Ras_Chess/" target="_blank" class="hero-btn hero-btn-primary"><i class="fa-brands fa-steam"></i> Get on Steam</a>
+                            <a href="games.html" class="hero-btn hero-btn-secondary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Slide 2 -->
+                <div class="hero-slide" data-slide="1">
+                    <div class="hero-slide-bg" style="background-image: url('./assets/images/phoenix-dynasty-2/phoenix-dynasty-2.png');"></div>
+                    <div class="hero-slide-overlay"></div>
+                    <div class="hero-slide-content">
+                        <span class="hero-label">Phoenix Dynasty 2</span>
+                        <h1 class="hero-title">Enter a World of<br>Ancient Legends</h1>
+                        <div class="hero-actions">
+                            <a href="games.html" class="hero-btn hero-btn-primary"><i class="fa-brands fa-steam"></i> Get on Steam</a>
+                            <a href="games.html" class="hero-btn hero-btn-secondary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Hero Controls -->
+            <div class="hero-controls">
+                <button class="hero-pause-btn" id="hero-pause" aria-label="Pause carousel">
+                    <i class="fa-solid fa-pause"></i>
+                </button>
+                <div class="hero-indicators">
+                    <button class="hero-dot active" data-index="0">
+                        <span class="dot-progress"></span>
+                    </button>
+                    <button class="hero-dot" data-index="1">
+                        <span class="dot-progress"></span>
+                    </button>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- FEATURED BANNER (2-column: big left, small right) -->
+        <section class="featured-banner-section" id="featured-section">
+            <div class="featured-grid">
+                <a href="games.html" class="featured-card featured-big reveal-up">
+                    <img src="./assets/images/age-of-cards/age-of-cards.png" alt="Age of Cards Update">
+                    <div class="featured-card-overlay">
+                        <span class="featured-card-label">Age of Cards</span>
+                        <h3 class="featured-card-title">Season 4 Kicks Off with Huge Rewards</h3>
+                    </div>
+                </a>
+                <div class="featured-side">
+                    <a href="games.html" class="featured-card featured-small reveal-up" style="animation-delay: 0.1s;">
+                        <img src="./assets/images/phoenix-dynasty-2/phoenix-dynasty-2.png" alt="Phoenix Dynasty 2">
+                        <div class="featured-card-overlay">
+                            <span class="featured-card-label">Phoenix Dynasty 2</span>
+                            <h3 class="featured-card-title">New Expansion Available Now</h3>
+                        </div>
+                    </a>
+                    <a href="games.html" class="featured-card featured-small reveal-up" style="animation-delay: 0.2s;">
+                        <img src="https://picsum.photos/seed/darksleep/800/450" alt="Dark Sleep">
+                        <div class="featured-card-overlay">
+                            <span class="featured-card-label">Kumkuat Games</span>
+                            <h3 class="featured-card-title">Football Mates Alpha Beta is over</h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- MOBILE APPS SECTION -->
+        <section class="content-section mobile-apps-section" id="mobile-apps">
+            <div class="section-container">
+
+
+                <!-- Football Mates Showcase -->
+                <div class="app-showcase reveal-up">
+                    <div class="app-info">
+                        <img src="./assets/images/football-mates/football-mates-logo.png" alt="Football Mates Logo" class="app-logo">
+                        <h3 class="app-title">Football Mates</h3>
+                        <p class="app-desc">Grab your team and hit the pitch in this fast-paced football experience.</p>
+                        <div class="app-actions">
+                            <a href="#" class="hero-btn hero-btn-primary"><i class="fa-brands fa-apple"></i> App Store</a>
+                            <a href="#" class="hero-btn hero-btn-secondary"><i class="fa-brands fa-google-play"></i> Google Play</a>
+                        </div>
+                    </div>
+                    
+                    <div class="app-mockup-wrapper" id="football-mates-slider">
+                        <button class="mockup-arrow prev-arrow" id="fm-prev"><i class="fa-solid fa-chevron-left"></i></button>
+                        
+                        <!-- Left Screen -->
+                        <div class="mockup-screen side-screen left-screen">
+                            <img src="./assets/images/football-mates/screenshots/2.png" alt="Screenshot 2" id="fm-left-img">
+                        </div>
+                        
+                        <!-- Center Phone Mockup -->
+                        <div class="mockup-phone center-phone">
+                            <img src="./assets/images/mockup/apple-iphone-15-pro-black-titanium-portrait.png" alt="Phone Mockup" class="phone-frame">
+                            <div class="phone-screen-content">
+                                <img src="./assets/images/football-mates/screenshots/1.png" alt="Screenshot 1" id="fm-center-img">
+                            </div>
+                        </div>
+
+                        <!-- Right Screen -->
+                        <div class="mockup-screen side-screen right-screen">
+                            <img src="./assets/images/football-mates/screenshots/3.png" alt="Screenshot 3" id="fm-right-img">
+                        </div>
+                        
+                        <button class="mockup-arrow next-arrow" id="fm-next"><i class="fa-solid fa-chevron-right"></i></button>
+                    </div>
+                </div>
+
+                <!-- Dark Sleep Showcase -->
+                <div class="app-showcase reveal-up" style="margin-top: 10rem;">
+                    <div class="app-info">
+                        <img src="./assets/images/dark-sleep/dark-sleep-logo.png" alt="Dark Sleep Logo" class="app-logo">
+                        <h3 class="app-title">Dark Sleep</h3>
+                        <p class="app-desc">Survive the night in this terrifying cooperative horror experience.</p>
+                        <div class="coming-soon-badge">Coming Soon</div>
+                    </div>
+                    
+                    <div class="app-mockup-wrapper">
+                        <div class="mockup-phone center-phone coming-soon-phone">
+                            <img src="./assets/images/mockup/apple-iphone-15-pro-black-titanium-portrait.png" alt="Phone Mockup" class="phone-frame">
+                            <div class="phone-screen-content">
+                                <img src="./assets/images/dark-sleep/darksleep916.png" alt="Dark Sleep" style="width: 100%; height: 100%; object-fit: cover; object-position: top;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- GAMES SHOWCASE -->
+        <section class="content-section games-showcase-section" id="games-section">
+            <div class="section-container">
+                <div class="section-header reveal-up">
+                    <h2 class="section-title">All Our Games</h2>
+                </div>
+                <div class="games-showcase-grid">
+                    <a href="https://store.steampowered.com/app/855590/Age_of_Cards__Ras_Chess/" target="_blank" class="game-showcase-card reveal-up">
+                        <div class="game-showcase-img">
+                            <img src="./assets/images/age-of-cards/ageof916.png" alt="Age of Cards - Ra's Chess">
+                            <div class="game-showcase-hover">
+                                <span class="game-hover-tag">Strategy • Card Game • PvP</span>
+                                <p class="game-hover-desc">A strategic turn-based chess-card game for online multiplayer between two players.</p>
+                                <span class="game-hover-cta">View on Steam <i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+                            </div>
+                        </div>
+                        <h3 class="game-showcase-name">Age of Cards — Ra's Chess</h3>
+                    </a>
+                    <a href="games.html" class="game-showcase-card reveal-up">
+                        <div class="game-showcase-img">
+                            <img src="./assets/images/phoenix-dynasty-2/phoenix2916.png" alt="Phoenix Dynasty 2" style="object-position: center;">
+                            <div class="game-showcase-hover">
+                                <span class="game-hover-tag">MMO • Fantasy • Multiplayer</span>
+                                <p class="game-hover-desc">Enter a world of ancient legends and forge your dynasty.</p>
+                                <span class="game-hover-cta">Learn More <i class="fa-solid fa-arrow-right"></i></span>
+                            </div>
+                        </div>
+                        <h3 class="game-showcase-name">Phoenix Dynasty 2</h3>
+                    </a>
+                    <a href="games.html" class="game-showcase-card reveal-up">
+                        <div class="game-showcase-img">
+                            <img src="./assets/images/football-mates/footmat916.png" alt="Football Mates" style="object-position: center;">
+                            <div class="game-showcase-hover">
+                                <span class="game-hover-tag">Sports • Casual • Mobile</span>
+                                <p class="game-hover-desc">Grab your team and hit the pitch in this fast-paced football experience.</p>
+                                <span class="game-hover-cta">Learn More <i class="fa-solid fa-arrow-right"></i></span>
+                            </div>
+                        </div>
+                        <h3 class="game-showcase-name">Football Mates</h3>
+                    </a>
+                    <a href="games.html" class="game-showcase-card reveal-up">
+                        <div class="game-showcase-img">
+                            <img src="./assets/images/dark-sleep/darksleep916.png" alt="Dark Sleep">
+                            <div class="game-showcase-hover">
+                                <span class="game-hover-tag">Horror • Survival • Co-Op</span>
+                                <p class="game-hover-desc">Survive the night in this terrifying cooperative horror experience.</p>
+                                <span class="game-hover-cta">Learn More <i class="fa-solid fa-arrow-right"></i></span>
+                            </div>
+                        </div>
+                        <h3 class="game-showcase-name">Dark Sleep</h3>
+                    </a>
+                </div>
+                <div class="section-viewmore reveal-up">
+                    <a href="games.html" class="viewmore-link">View All Games <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- NEWSWIRE SECTION -->
+        <section class="content-section newswire-section" id="newswire-section">
+            <div class="section-container">
+                <div class="section-header reveal-up">
+                    <h2 class="section-title">Newswire</h2>
+                </div>
+                <div class="newswire-grid">
+                    <a href="#" class="news-card reveal-up">
+                        <div class="news-card-img">
+                            <img src="./assets/images/age-of-cards/age-of-cards.png" alt="News">
+                        </div>
+                        <div class="news-card-body">
+                            <div class="news-card-meta">
+                                <span class="news-game-tag">Football Mates</span>
+                                <span class="news-date">Recent</span>
+                            </div>
+                            <h3 class="news-card-title">Football Mates Alpha Beta is over</h3>
+                        </div>
+                    </a>
+                    <a href="#" class="news-card reveal-up">
+                        <div class="news-card-img">
+                            <img src="./assets/images/phoenix-dynasty-2/phoenix-dynasty-2.png" alt="News">
+                        </div>
+                        <div class="news-card-body">
+                            <div class="news-card-meta">
+                                <span class="news-game-tag">Football Mates</span>
+                                <span class="news-date">Recent</span>
+                            </div>
+                            <h3 class="news-card-title">Football Mates Alpha Beta kicks off</h3>
+                        </div>
+                    </a>
+                    <a href="#" class="news-card reveal-up">
+                        <div class="news-card-img">
+                            <img src="./assets/images/age-of-cards/age-of-cards.png" alt="News">
+                        </div>
+                        <div class="news-card-body">
+                            <div class="news-card-meta">
+                                <span class="news-game-tag">Age of Cards</span>
+                                <span class="news-date">July 28, 2026</span>
+                            </div>
+                            <h3 class="news-card-title">New Heroes Revealed: Master Four Unique Strategies</h3>
+                        </div>
+                    </a>
+                    <a href="#" class="news-card reveal-up">
+                        <div class="news-card-img">
+                            <img src="./assets/images/phoenix-dynasty-2/phoenix-dynasty-2.png" alt="News">
+                        </div>
+                        <div class="news-card-body">
+                            <div class="news-card-meta">
+                                <span class="news-game-tag">Phoenix Dynasty 2</span>
+                                <span class="news-date">July 15, 2026</span>
+                            </div>
+                            <h3 class="news-card-title">Guild Wars Update — Forge Your Alliance</h3>
+                        </div>
+                    </a>
+                    <a href="#" class="news-card reveal-up">
+                        <div class="news-card-img">
+                            <img src="./assets/images/football-mates/screenshots/1.png" alt="News">
+                        </div>
+                        <div class="news-card-body">
+                            <div class="news-card-meta">
+                                <span class="news-game-tag">Kumkuat Games</span>
+                                <span class="news-date">About Us</span>
+                            </div>
+                            <h3 class="news-card-title">After 25 games and 15+ years of experience, our adventure begins</h3>
+                        </div>
+                    </a>
+                    <a href="#" class="news-card reveal-up">
+                        <div class="news-card-img">
+                            <img src="./assets/images/football-mates/screenshots/2.png" alt="News">
+                        </div>
+                        <div class="news-card-body">
+                            <div class="news-card-meta">
+                                <span class="news-game-tag">Services</span>
+                                <span class="news-date">Expertise</span>
+                            </div>
+                            <h3 class="news-card-title">Game Development, Publishing, MMO Consultancy, Localization & QA</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="section-viewmore reveal-up">
+                    <a href="about.html" class="viewmore-link">View More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- VIDEO SECTION -->
+        <section class="content-section video-section" id="videos-section">
+            <div class="section-container">
+                <div class="section-header reveal-up">
+                    <h2 class="section-title">Videos</h2>
+                </div>
+                <div class="video-grid">
+                    <div class="video-card video-card-big reveal-up">
+                        <div class="video-thumbnail">
+                            <img src="./assets/images/age-of-cards/age-of-cards.png" alt="Trailer">
+                            <div class="video-play-overlay">
+                                <div class="video-play-btn"><i class="fa-solid fa-play"></i></div>
+                            </div>
+                        </div>
+                        <div class="video-info">
+                            <span class="video-game-tag">Age of Cards</span>
+                            <h3>Official Gameplay Trailer</h3>
+                        </div>
+                    </div>
+                    <div class="video-card reveal-up">
+                        <div class="video-thumbnail">
+                            <img src="./assets/images/phoenix-dynasty-2/phoenix-dynasty-2.png" alt="Trailer">
+                            <div class="video-play-overlay">
+                                <div class="video-play-btn"><i class="fa-solid fa-play"></i></div>
+                            </div>
+                        </div>
+                        <div class="video-info">
+                            <span class="video-game-tag">Phoenix Dynasty 2</span>
+                            <h3>World Reveal Trailer</h3>
+                        </div>
+                    </div>
+                    <div class="video-card reveal-up">
+                        <div class="video-thumbnail">
+                            <img src="./assets/images/age-of-cards/age-of-cards.png" alt="Trailer">
+                            <div class="video-play-overlay">
+                                <div class="video-play-btn"><i class="fa-solid fa-play"></i></div>
+                            </div>
+                        </div>
+                        <div class="video-info">
+                            <span class="video-game-tag">Age of Cards</span>
+                            <h3>Season 4 — What's New</h3>
+                        </div>
+                    </div>
+                    <div class="video-card reveal-up">
+                        <div class="video-thumbnail">
+                            <img src="./assets/images/phoenix-dynasty-2/phoenix-dynasty-2.png" alt="Trailer">
+                            <div class="video-play-overlay">
+                                <div class="video-play-btn"><i class="fa-solid fa-play"></i></div>
+                            </div>
+                        </div>
+                        <div class="video-info">
+                            <span class="video-game-tag">Phoenix Dynasty 2</span>
+                            <h3>Expansion Pack Walkthrough</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-viewmore reveal-up">
+                    <a href="#" class="viewmore-link">View All Videos <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- DOWNLOADS / CTA SECTION -->
+        <section class="content-section cta-section" id="downloads-section">
+            <div class="cta-bg-wrapper">
+                <img src="./assets/images/phoenix-dynasty-2/phoenix-dynasty-2.png" alt="" class="cta-bg-img">
+                <div class="cta-bg-overlay"></div>
+            </div>
+            <div class="cta-content reveal-up">
+                <h2 class="cta-title">About Kumkuat Games</h2>
+                <p class="cta-subtitle">We have a team that thinks fast, makes quick decisions and can take immediate action. After 25 different games published with 15+ years of experience in the game industry, our adventure began.</p>
+                <div class="cta-actions">
+                    <a href="about.html" class="hero-btn hero-btn-primary">Learn More About Us</a>
+                    <a href="career.html" class="hero-btn hero-btn-secondary">Open Positions</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ============ FOOTER ============ -->
+    <footer class="site-footer" id="site-footer">
+        <div class="footer-container">
+            <div class="footer-top">
+                <div class="footer-nav">
+                    <a href="games.html">Games</a>
+                    <a href="about.html">Newswire</a>
+                    <a href="services.html">Services</a>
+                    <a href="team.html">Careers</a>
+                    <a href="contact.html">Support</a>
+                </div>
+                <div class="footer-socials">
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" aria-label="X / Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#" aria-label="Discord"><i class="fa-brands fa-discord"></i></a>
+                    <a href="https://store.steampowered.com/search/?developer=Kumkuat%20Games" target="_blank" aria-label="Steam"><i class="fa-brands fa-steam"></i></a>
+                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                </div>
+            </div>
+            <div class="footer-divider"></div>
+            <div class="footer-bottom">
+                <div class="footer-logo-area">
+                    <img src="./assets/images/kumkuatlogo2-w.png" alt="Kumkuat Games" class="footer-logo">
+                    <p class="footer-copyright">&copy; 2026 Kumkuat Games. All Rights Reserved.</p>
+                </div>
+                <div class="footer-legal">
+                    <a href="#">Legal</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cookie Settings</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
