@@ -6,6 +6,26 @@ document.addEventListener('DOMContentLoaded', () => {
         header.classList.toggle('scrolled', window.scrollY > 50);
     });
 
+    // ========== THEME TOGGLE ==========
+    const themeBtn = document.getElementById('btn-theme');
+    const savedTheme = localStorage.getItem('kumkuat_theme');
+    
+    if (savedTheme === 'light') {
+        document.documentElement.classList.add('light-theme');
+        if (themeBtn) themeBtn.innerHTML = '<i class="fa-solid fa-sun"></i>';
+    }
+
+    if (themeBtn) {
+        themeBtn.addEventListener('click', () => {
+            const isLight = document.documentElement.classList.toggle('light-theme');
+            localStorage.setItem('kumkuat_theme', isLight ? 'light' : 'dark');
+            themeBtn.innerHTML = isLight 
+                ? '<i class="fa-solid fa-sun"></i>' 
+                : '<i class="fa-solid fa-moon"></i>';
+        });
+    }
+
+
     // ========== HAMBURGER MENU ==========
     const hamburgerBtn = document.getElementById('btn-hamburger');
     const mobileMenu = document.getElementById('mobile-menu');
